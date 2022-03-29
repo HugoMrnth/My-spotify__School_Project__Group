@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule \.(js|jpg|png)$ - [L]
+RewriteRule ^(.*)$ index.php
